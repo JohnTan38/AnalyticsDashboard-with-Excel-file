@@ -212,7 +212,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed with  ❤ by <a style='display: block; text-align: center;' href="https://www.heflin.dev/" target="_blank">Samir.s.s</a></p>
+<p>Developed with  ❤ by <a style='display: block; text-align: center;' href="https://www.github.com/JohnTan38/" target="_blank">Samir.s.s</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
