@@ -21,7 +21,7 @@ with open('style.css')as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
 #load excel file
-df=pd.read_excel('data.xlsx', sheet_name='Sheet1')
+df=pd.read_excel('https://raw.githubusercontent.com/JohnTan38/AnalyticsDashboard-with-Excel-file/main/data.xlsx', sheet_name='Sheet1')
 
 
 #2. switcher
